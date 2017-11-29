@@ -28,6 +28,7 @@ public class ConvertImagTypePlugin : ModuleRules
 			new string[]
 			{
 				"Core",
+                "RHI",
              
 				// ... add other public dependencies that you statically link with here ...
 			}
@@ -41,6 +42,7 @@ public class ConvertImagTypePlugin : ModuleRules
                 "Engine",
                 "Slate",
 				"SlateCore",
+            
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
